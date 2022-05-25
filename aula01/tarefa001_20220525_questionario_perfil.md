@@ -7,7 +7,7 @@
 **R: Conhecimento principalmente da linguagem de programação dart. Desenvolvimento de aplicativos móveis.**
 
 4. Quais Linguagens de Programação você domina?
-**R: C, Dart, Java, SQL(Não totalmente), JavaScript (Não totalmente).**
+**R: C, Dart, Java(Não totalmente), SQL, JavaScript (Não totalmente).**
 
 5. Conhece o paradigma de programação orientado a objetos?
 **R: Sim, conheço.**
