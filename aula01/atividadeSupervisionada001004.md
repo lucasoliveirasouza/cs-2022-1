@@ -6,6 +6,22 @@
 * As definições dos conceitos envolvidos;
 * As principais características deste conceito (pelo menos umas cinco).
 
+
+
+## *Rest API*
+
+Uma API é um conjunto de regras que permite que aplicações se conecte e comunique com outras. Já Rest é um conjunto de restrições para que requisições HTTP atendam as seguintes diretrizes definidas na arquitetura:
+Sendo assim, uma Rest API significa utilizar uma API para acessar uma aplicação, levando em consideração os padrões definidos pelo estilo de arquitetura REST.
+* Separação entre o cliente e servidor;
+* Multiplataforma;
+* Mais visibilidade, confiabilidade e escalabilidade;
+* Sem estado
+* Armazenável em cache
+* Interface Uniforme
+* Sistemas em camadas
+* Código sob demanda
+
+
 INSTRUÇÕES:
 1. Este é um arquivo no formato _markdown_ (.md), caso você precise de orientações a respeito da forma como editar este tipo de arquivo, acesso este [link](https://guides.github.com/features/mastering-markdown/);
 2. Edite este arquivo adicionando o texto, conforme especificado;
