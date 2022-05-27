@@ -11,7 +11,7 @@
 ## **Rest API**
 
 Uma **API** é um conjunto de regras que permite que aplicações se conecte e comunique com outras. Já **Rest** é um conjunto de restrições para que requisições HTTP atendam as seguintes diretrizes definidas na arquitetura. Sendo assim, uma Rest API significa utilizar uma API para acessar uma aplicação, levando em consideração as seguintes restrições definidas pelo estilo de arquitetura REST:
-* **Desacoplamento do cliente-servidor:**As aplicações existentes no servidor e no cliente devem ser desacopladas, ou seja, a aplicação do servidor a só poderá modificar a aplicação de cliente por meio de solicitações via HTTP;
+* **Desacoplamento do cliente-servidor:** As aplicações existentes no servidor e no cliente devem ser desacopladas, ou seja, a aplicação do servidor a só poderá modificar a aplicação de cliente por meio de solicitações via HTTP;
 * **Sem estado definido**: as requisições são feitas para executar apenas uma determinada ação, são realizadas de forma independentes;
 * **Armazenamento em cache**: Se possível, os recursos devem ser armazenados em cache para melhorar o desempenho do cliente;
 * **Interface uniforme:** Todas solicitações para o mesmo recurso devem ser iguais, sem levar em consideração a origem da solicitação.
