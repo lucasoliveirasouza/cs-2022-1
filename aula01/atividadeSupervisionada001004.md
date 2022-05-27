@@ -17,6 +17,7 @@ Já **Rest** é um conjunto de restrições para que requisições HTTP atendam 
 * **Armazenamento em cache**: Se possível, os recursos devem ser armazenados em cache para melhorar o desempenho do cliente;
 * **Interface uniforme**: Todas solicitações para o mesmo recurso devem ser iguais, sem levar em consideração a origem da solicitação.
 * **Sistema em camadas**: o sistema em camada para construir uma hierarquia com o intuito de deixar a aplicação mais escalável e flexível.
+
 As Rest API se comunicam via HTTP para executar funções padrões necessárias: GET (recuperar registro), POST (criar registro), PUT (atualizar registro) e DELETE (excluir registro), conhecido como CRUD. 
 Elas são importantes pois permitem que aplicações tem acessos a informações de forma rápida e segura, além de adicionar diversas funcionalidades. Com elas temos diversas vantagens, como: ter mais visibilidade, confiabilidade e escalabilidade, além de ser multiplataforma. Alguns exemplos de uso são: redes sociais, sites de E-commerce, inteligência artificial, aplicações web, aplicações mobile, serviços de troca de mensagens, repositório de dados;
 Em resumo, as principais características da Rest API, como citado anteriormente, são: 
