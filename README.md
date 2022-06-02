@@ -1,7 +1,7 @@
 # cs-2022-1
 Repositório da disciplina de Construção de Software
 
-#### Tópicos a serem estudados:
+#### Assuntos:
 
 * Nivelamento
 * Planejamento
