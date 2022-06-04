@@ -97,9 +97,10 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 <br>**R: O arquivo <code>.gitignore</code>**<br>
 
 22. Quando se cria o arquivo _MinhaClasse.class_ em um dado diretório e desejamos que arquivos com a extensão .class, como neste caso, sejam ignorados por todos os membros de uma equipe que estão contribuindo com um dado projeto, como devemos proceder?
-<br>**R: Devemos adicionar a referência dos arquivos <code>.class</code> no <code>.gitignore</code>
+<br>**R: Devemos adicionar a referência dos arquivos <code>.class</code> no <code>.gitignore</code>**<br>
 
 23. jQuery é uma famosa biblioteca em JavaScript. Consulte detalhes em [jQuery](http://jquery.com). O repositório correspondente encontra-se em [gitRep](https://github.com/jquery/jquery.git). Faça o clone deste repositório.
+<br>**R: O repositório foi clonado utilizando o comando <code>git clone https://github.com/jquery/jquery.git</code>**<br>
 24. No repositório **jqueryrepo**, criado no passo anterior, qual o efeito do comando
 **git shortlog -sne**?
 25. No repositório **jqueryrepo**, qual o efeito de **git remote -v**?
