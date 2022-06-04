@@ -23,7 +23,7 @@ R: **git --version**
 	R: **rastreia todos os arquivos do repositótio**
   
     f. git add -u
-	Resposta: **Adiciona todos arquivos modificados ao stage**
+	**Resposta: Adiciona todos arquivos modificados ao stage**
   
     g. git config -l
   
