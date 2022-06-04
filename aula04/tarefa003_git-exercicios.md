@@ -8,34 +8,34 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 
 2. Qual o efeito da execução de cada um dos comandos abaixo?<br>
     a. git help 
-	**R: É aberto um lista de informações de ajuda sobre o git**<br>
+	<br>**R: É aberto um lista de informações de ajuda sobre o git**<br>
 
     b. git help checkout 
-	**R: É aberto uma página de manual de checkout**<br>
+	<br>**R: É aberto uma página de manual de checkout**<br>
 
     c. git help merge 
-	**R: É aberto uma página de manual de merge**<br>
+	<br>**R: É aberto uma página de manual de merge**<br>
   
     d. git init 
-  	**R: Ele transforma o diretório em repositório git**<br>
+  	<br>**R: Ele transforma o diretório em repositório git**<br>
 
     e. git add --all 
-	**R: Adiciona todos os arquivos do repositório (novos, modificados e removidos) para que possam ser comitados**<br>
+	<br>**R: Adiciona todos os arquivos do repositório (novos, modificados e removidos) para que possam ser comitados**<br>
   
     f. git add -u 
-	**R: Adiciona todos arquivos modificados ou removidos ao stage para que possam ser comitados**<br>
+	<br>**R: Adiciona todos arquivos modificados ou removidos ao stage para que possam ser comitados**<br>
   
     g. git config -l 
-	**R: Lista todas as configurações presentes no git**
+	<br>**R: Lista todas as configurações presentes no git**
   
     h. git mv a.txt b.txt 
 	<br>**R: Renomeia o arquivo a.txt para b.txt**<br>
   
     i. git reset --hard 
-  	**R: Descarta as alterações na área de stage e reverte as alterações no diretório para o estado do commit especificado**<br>
+  	<br>**R: Descarta as alterações na área de stage e reverte as alterações no diretório para o estado do commit especificado**<br>
 
     j. git log -27 
-	**R: Mostra a linha do tempo dos últimos 27 commits realizados** 
+	<br>**R: Mostra a linha do tempo dos últimos 27 commits realizados** 
   
 3. O fluxo “clássico” de interação com o Git é algo como “alterar um ou mais arquivos”, “acrescentar essas mudanças para serem contemplados no próximo commit” e, finalmente, executar um “commit”. Quais os comandos necessários para realizar os dois últimos “passos” desse fluxo?
 <br>**R: <code>git add</code> para acrescentar todos os arquivos modificados, e <code>git commit -m "mensagem"</code> para realizar o commit das alterações.**<br>
@@ -88,7 +88,7 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 19. Qual o efeito da execução dos dois comandos abaixo, nesta ordem, em um dado repositório?
 **git reset --soft HEAD~1**
 **git reset --hard**
-
+<br>**O comando <code>git reset --soft HEAD~1</code>irá retornar para o commint anterior e manter as alterações desse commit. Já o comando <code>git reset --hard</code> irá retornar para o commit anterior e irá remover alterações realizadas neste commit**<br>
 
 20. Após o emprego de um ambiente integrado de desenvolvimento (IDE), é comum a criação de arquivos e diretórios. Qual o comando que podemos empregar para remover arquivos e diretórios _untracked_?
 <br>**R: O comando <code>git clean -fd</code>**<br>
