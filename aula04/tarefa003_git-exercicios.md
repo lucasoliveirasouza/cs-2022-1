@@ -7,34 +7,28 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 R: **git --version**
 
 2. Qual o efeito da execução de cada um dos comandos abaixo?
+3. 
     a. git help
-	
 	**Resposta: É aberto um lista de comandos e suas funcionalidades**
   
     b. git help checkout
-    
 	**Resposta: É aberto uma página manual de checkout**
 
     c. git help merge
-    
 	**Resposta: É aberto uma página manual de merge**
   
     d. git init
-    
   	**Resposta: Ele transforma o diretório em repositório git**
 
     e. git add --all
-    
 	**Resposta: rastreia todos os arquivos do repositótio**
   
     f. git add -u
-    
 	**Resposta: Adiciona todos arquivos modificados ao stage**
   
     g. git config -l
   
     h. git mv a.txt b.txt
-	
 	**Resposta: Renomeia o a.txt para b.txt**
   
     i. git reset --hard
