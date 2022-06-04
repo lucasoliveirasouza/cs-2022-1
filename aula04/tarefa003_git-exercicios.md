@@ -47,7 +47,9 @@ R: **git --version**
 8. O que deve ser feito para que um determinado diretório do seu repositório seja ignorado pelo Git? Faça uma busca por **.gitignore**.
 9. O que acontece se o seu repositório local for acidentalmente removido?
 10. Como clonar um repositório remoto?
-	R: utilizar o comando "git clone" seguido d URL do repositório.**
+
+	**R: utilizar o comando "git clone" seguido da URL do repositório.**
+
 11. Em alguns cenários **git log** pode produzir extensos resultados. Se houver interesse em visualizar o histórico de um repositório, onde cada mudança é fornecida exatamente em uma única linha, qual o comando que deve ser empregado?
 12. Em qual arquivo o Git armazena informações de configuração empregadas por usuário?
 13. Qual o comando para criar um repositório local?
