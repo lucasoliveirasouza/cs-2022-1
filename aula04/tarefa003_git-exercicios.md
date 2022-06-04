@@ -77,7 +77,7 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 <br>**R: O comando <code>git add .</code>**<br>
 
 16. O Git faz uso do valor de hash conhecido por SHA1. O que isto significa? Qual o propósito? O que é SHA1?
-
+<br>**R: O SHA-1 tem a função de criptografia, e com ele pode-se detectar alterações de dados, sendo assim utilizado controle de versões.**<br>
 
 17. Qual a palavra para indicar o último _commit_ em vez do valor de hash SHA1 correspondente?
 <br>**R: Pode-se utilizar o comando <code>git log -1</code>.**<br>
@@ -88,7 +88,7 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 19. Qual o efeito da execução dos dois comandos abaixo, nesta ordem, em um dado repositório?
 **git reset --soft HEAD~1**
 **git reset --hard**
-<br>**O comando <code>git reset --soft HEAD~1</code>irá retornar para o commint anterior e manter as alterações desse commit. Já o comando <code>git reset --hard</code> irá retornar para o commit anterior e irá remover alterações realizadas neste commit**<br>
+<br>**O comando <code>git reset --soft HEAD~1</code> irá retornar para o commint anterior e manter as alterações desse commit. Já o comando <code>git reset --hard</code> irá retornar para o commit anterior e irá remover alterações realizadas neste commit**<br>
 
 20. Após o emprego de um ambiente integrado de desenvolvimento (IDE), é comum a criação de arquivos e diretórios. Qual o comando que podemos empregar para remover arquivos e diretórios _untracked_?
 <br>**R: O comando <code>git clean -fd</code>**<br>
