@@ -37,14 +37,14 @@ R: **git --version**<br>
 	**R: Mostra a linha do tempo dos últimos 27 commits realizados** 
   
 3. O fluxo “clássico” de interação com o Git é algo como “alterar um ou mais arquivos”, “acrescentar essas mudanças para serem contemplados no próximo commit” e, finalmente, executar um “commit”. Quais os comandos necessários para realizar os dois últimos “passos” desse fluxo?
-<br>**R: _git add_ para acrescentar todos os arquivos modificados, e _git commit -m "mensagem"_ para realizar o commit das alterações. **<br>
+<br>**R:<code>git add</code> para acrescentar todos os arquivos modificados, e <code>git commit -m "mensagem"</code> para realizar o commit das alterações.**<br>
 
 4. Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”?
-<br>**Resposta: comando "git status"**<br>
+<br>**R: comando <code>git show</code>**<br>
 5. Em um dado repositório, arquivos simplesmente copiados para lá, ou seja, _untracked_, podem ser exibidos/identificados com que comando?
 
 6. Qual o comando para efetuar um _commit_?
-<br>**Resposta: O comando _git commit -m "mensagem"_**<br>
+<br>**Resposta: O comando <code>git commit -m "mensagem"</code>**<br>
 
 7. Qual o comando que devemos empregar para descartar mudanças ocorridas no arquivo teste.txt, por exemplo?
 8. O que deve ser feito para que um determinado diretório do seu repositório seja ignorado pelo Git? Faça uma busca por **.gitignore**.
