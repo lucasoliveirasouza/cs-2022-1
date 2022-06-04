@@ -77,7 +77,7 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 <br>**R: O comando <code>git add .</code>**<br>
 
 16. O Git faz uso do valor de hash conhecido por SHA1. O que isto significa? Qual o propósito? O que é SHA1?
-<br>**R: O SHA-1 tem a função de criptografia, e com ele pode-se detectar alterações de dados, sendo assim utilizado controle de versões.**<br>
+<br>**R: O SHA1 tem a função de criptografia, e com ele pode-se detectar alterações de dados, sendo assim utilizado controle de versões.**<br>
 
 17. Qual a palavra para indicar o último _commit_ em vez do valor de hash SHA1 correspondente?
 <br>**R: Pode-se utilizar o comando <code>git log -1</code>.**<br>
