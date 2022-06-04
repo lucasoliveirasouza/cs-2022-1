@@ -32,6 +32,7 @@ R: **git --version**<br>
   
     i. git reset --hard 
   	**R: Descarta as alterações na área de stage e reverte as alterações no diretório para o estado do commit especificado**<br>
+
     j. git log -27 
 	**R: Mostra a linha do tempo dos últimos 27 commits realizados** 
   
