@@ -8,27 +8,34 @@ R: **git --version**
 
 2. Qual o efeito da execução de cada um dos comandos abaixo?
     a. git help
-	R: **É aberto um lista de comandos e suas funcionalidades**
+	
+	**Resposta: É aberto um lista de comandos e suas funcionalidades**
   
     b. git help checkout
-	R: **É aberto uma página manual de checkout**
+    
+	**Resposta: É aberto uma página manual de checkout**
 
     c. git help merge
-	R: **É aberto uma página manual de merge**
+    
+	**Resposta: É aberto uma página manual de merge**
   
     d. git init
-  	R: **Ele transforma o diretório em repositório git**
+    
+  	**Resposta: Ele transforma o diretório em repositório git**
 
     e. git add --all
-	R: **rastreia todos os arquivos do repositótio**
+    
+	**Resposta: rastreia todos os arquivos do repositótio**
   
     f. git add -u
+    
 	**Resposta: Adiciona todos arquivos modificados ao stage**
   
     g. git config -l
   
     h. git mv a.txt b.txt
-	R: **Renomeia o a.txt para b.txt**
+	
+	**Resposta: Renomeia o a.txt para b.txt**
   
     i. git reset --hard
   
