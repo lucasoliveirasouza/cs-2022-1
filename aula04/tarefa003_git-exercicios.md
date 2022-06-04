@@ -23,6 +23,7 @@ R: **git --version**
 	R: **rastreia todos os arquivos do repositótio**
   
     f. git add -u
+	Resposta: **Adiciona todos arquivos modificados ao stage**
   
     g. git config -l
   
@@ -58,6 +59,9 @@ R: **git --version**
 
 14. Qual o nome do diretório criado pelo Git quando se executa o comando **git init**?
 15. Qual o comando para adicionar todos os arquivos modificados? (Aqueles para os quais **git status** identificam como **modified**?)
+
+	**Resposta: git add -u**
+
 16. O Git faz uso do valor de hash conhecido por SHA1. O que isto significa? Qual o propósito? O que é SHA1?
 17. Qual a palavra para indicar o último _commit_ em vez do valor de hash SHA1 correspondente?
 18. Quando se cria dois arquivos usando um editor de texto qualquer e, na sequência, executamos o comando **git add -u**, os dois arquivos criados passam de _untracked_ para _new file_?
