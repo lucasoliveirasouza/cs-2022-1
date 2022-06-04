@@ -4,13 +4,13 @@
 <br>**R: O nome do branch padrão é <code>main</code>**<br>
 
 2. O que o comando **<code>git branch nome</code>** realiza?
-<br>**R: O comando cria uma nova branch. No lugar de <code>nome</code> poderia ser qualquer outro nome desse branch**<br>
+<br>**R: O comando cria um novo branch. No lugar de <code>nome</code> poderia ser qualquer outro nome para esse branch**<br>
 
 3. Como criar um branch a partir de um commit específico?
 <br>**R: Basta utilizar o comando <code>git branch (nome) (hash do commit)</code>**<br>
 
 4. Em um repositório, qual o efeito do comando **<code>git checkout -b bugfix/234</code>**?
-<br>**R: Irá levar para o branch <code>bugfix/234<\code>**<br>
+<br>**R: Irá levar para o branch <code>bugfix/234</code>**<br>
 
 5. Qual o comando para se alternar para um branch de nome **experimento2**?
 <br>**R: O comando <code>git checkout experimento2</code>**<br>
