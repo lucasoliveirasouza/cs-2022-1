@@ -4,7 +4,7 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 
 
 1. Qual o comando para obter a versão instalada do Git?<br>
-R: **git --version**<br>
+**R: O comando <code>git --version</code>**<br>
 2. Qual o efeito da execução de cada um dos comandos abaixo?<br>
     a. git help 
 	**R: É aberto um lista de informações de ajuda sobre o git**<br>
@@ -40,18 +40,25 @@ R: **git --version**<br>
 <br>**R:<code>git add</code> para acrescentar todos os arquivos modificados, e <code>git commit -m "mensagem"</code> para realizar o commit das alterações.**<br>
 
 4. Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”?
-<br>**R: comando <code>git show</code>**<br>
+<br>**R: O comando <code>git show</code>**<br>
+
 5. Em um dado repositório, arquivos simplesmente copiados para lá, ou seja, _untracked_, podem ser exibidos/identificados com que comando?
+<br>**R: Com o comando <code>git status</code>**
 
 6. Qual o comando para efetuar um _commit_?
-<br>**Resposta: O comando <code>git commit -m "mensagem"</code>**<br>
+<br>**R: O comando <code>git commit -m "mensagem"</code>**<br>
 
 7. Qual o comando que devemos empregar para descartar mudanças ocorridas no arquivo teste.txt, por exemplo?
-8. O que deve ser feito para que um determinado diretório do seu repositório seja ignorado pelo Git? Faça uma busca por **.gitignore**.
-9. O que acontece se o seu repositório local for acidentalmente removido?
-10. Como clonar um repositório remoto?
+<br>**R: O comando <code>git stash</code>**<br>
 
-	**R: utilizar o comando "git clone" seguido da URL do repositório.**
+8. O que deve ser feito para que um determinado diretório do seu repositório seja ignorado pelo Git? Faça uma busca por **.gitignore**.
+<br>**R: É necessário configurar o arquivo denominado de <code>.gitignore</code> e nele deve ser adicionados os diretórios e arquivos que precisam ser ignorados.**<br>
+
+9. O que acontece se o seu repositório local for acidentalmente removido?
+<br>**R: Caso queira, pode-se clonar esse repositório, e asalterações que foram subidas anteriormente, serão perdidas.**<br>
+
+10. Como clonar um repositório remoto?
+<br>**R: utilizar o comando "git clone" seguido da URL do repositório.**<br>
 
 11. Em alguns cenários **git log** pode produzir extensos resultados. Se houver interesse em visualizar o histórico de um repositório, onde cada mudança é fornecida exatamente em uma única linha, qual o comando que deve ser empregado?
 12. Em qual arquivo o Git armazena informações de configuração empregadas por usuário?
