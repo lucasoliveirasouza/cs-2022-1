@@ -4,22 +4,30 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 
 
 1. Qual o comando para obter a versão instalada do Git?
+R: **git --version**
+
 2. Qual o efeito da execução de cada um dos comandos abaixo?
     a. git help
+	R: **É aberto um lista de comandos e suas funcionalidades**
   
     b. git help checkout
-  
+	R: **É aberto uma página manual de checkout**
+
     c. git help merge
+	R: **É aberto uma página manual de merge**
   
     d. git init
-  
+  	R: **Ele transforma o diretório em repositório git**
+
     e. git add --all
+	R: **rastreia todos os arquivos do repositótio**
   
     f. git add -u
   
     g. git config -l
   
     h. git mv a.txt b.txt
+	R: **Renomeia o a.txt para b.txt**
   
     i. git reset --hard
   
@@ -33,9 +41,12 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 8. O que deve ser feito para que um determinado diretório do seu repositório seja ignorado pelo Git? Faça uma busca por **.gitignore**.
 9. O que acontece se o seu repositório local for acidentalmente removido?
 10. Como clonar um repositório remoto?
+	R: utilizar o comando "git clone" seguido d URL do repositório.**
 11. Em alguns cenários **git log** pode produzir extensos resultados. Se houver interesse em visualizar o histórico de um repositório, onde cada mudança é fornecida exatamente em uma única linha, qual o comando que deve ser empregado?
 12. Em qual arquivo o Git armazena informações de configuração empregadas por usuário?
 13. Qual o comando para criar um repositório local?
+	R: **git init**
+
 14. Qual o nome do diretório criado pelo Git quando se executa o comando **git init**?
 15. Qual o comando para adicionar todos os arquivos modificados? (Aqueles para os quais **git status** identificam como **modified**?)
 16. O Git faz uso do valor de hash conhecido por SHA1. O que isto significa? Qual o propósito? O que é SHA1?
