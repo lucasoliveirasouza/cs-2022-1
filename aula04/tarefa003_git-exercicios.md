@@ -19,7 +19,7 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
     d. git init 
   	<br>**R: Ele transforma o diretório em repositório git**<br>
 
-    e. git add --all 
+    e. git add --all  
 	<br>**R: Adiciona todos os arquivos do repositório (novos, modificados e removidos) para que possam ser comitados**<br>
   
     f. git add -u 
