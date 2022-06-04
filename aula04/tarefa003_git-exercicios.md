@@ -8,6 +8,7 @@ R: **git --version**<br>
 2. Qual o efeito da execução de cada um dos comandos abaixo?<br>
     a. git help 
 	**R: É aberto um lista de informações de ajuda sobre o git**<br>
+
     b. git help checkout 
 	**R: É aberto uma página de manual de checkout**<br>
 
@@ -30,7 +31,7 @@ R: **git --version**<br>
 	**R: Renomeia o arquivo a.txt para b.txt**<br>
   
     i. git reset --hard 
-  	**R: Descarta as alterações na área de stage e reverte as alterações no diretório para o estado do commit especificado**
+  	**R: Descarta as alterações na área de stage e reverte as alterações no diretório para o estado do commit especificado**<br>
     j. git log -27 
 	**R: Mostra a linha do tempo dos últimos 27 commits realizados** 
   
