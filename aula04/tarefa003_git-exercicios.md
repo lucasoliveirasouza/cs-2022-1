@@ -62,7 +62,7 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 <br>**R: Utilizar o comando <code>git clone</code> seguido da URL do repositório.**<br>
 
 11. Em alguns cenários **git log** pode produzir extensos resultados. Se houver interesse em visualizar o histórico de um repositório, onde cada mudança é fornecida exatamente em uma única linha, qual o comando que deve ser empregado?
-<br>**R: O comando <code>git loh --oneline</code>**<br>
+<br>**R: O comando <code>git log --oneline</code>**<br>
 
 12. Em qual arquivo o Git armazena informações de configuração empregadas por usuário?
 <br>**R: No arquivo <code>config</code> localizado na pasta <code>.git</code>**<br>
@@ -91,10 +91,14 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 
 
 20. Após o emprego de um ambiente integrado de desenvolvimento (IDE), é comum a criação de arquivos e diretórios. Qual o comando que podemos empregar para remover arquivos e diretórios _untracked_?
+<br>**R: O comando <code>git clean -fd</code>**<br>
+
 21. Qual o nome do arquivo no qual podemos inserir a indicação para o Git de arquivos e diretórios a serem ignorados? 
 <br>**R: O arquivo <code>.gitignore</code>**<br>
 
 22. Quando se cria o arquivo _MinhaClasse.class_ em um dado diretório e desejamos que arquivos com a extensão .class, como neste caso, sejam ignorados por todos os membros de uma equipe que estão contribuindo com um dado projeto, como devemos proceder?
+<br>**R: Devemos adicionar a referência dos arquivos <code>.class</code> no <code>.gitignore</code>
+
 23. jQuery é uma famosa biblioteca em JavaScript. Consulte detalhes em [jQuery](http://jquery.com). O repositório correspondente encontra-se em [gitRep](https://github.com/jquery/jquery.git). Faça o clone deste repositório.
 24. No repositório **jqueryrepo**, criado no passo anterior, qual o efeito do comando
 **git shortlog -sne**?
