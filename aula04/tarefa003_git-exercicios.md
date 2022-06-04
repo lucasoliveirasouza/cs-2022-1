@@ -5,6 +5,7 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 
 1. Qual o comando para obter a versão instalada do Git?<br>
 **R: O comando <code>git --version</code>**<br>
+
 2. Qual o efeito da execução de cada um dos comandos abaixo?<br>
     a. git help 
 	**R: É aberto um lista de informações de ajuda sobre o git**<br>
@@ -28,7 +29,7 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 	**R: Lista todas as configurações presentes no git**
   
     h. git mv a.txt b.txt 
-	**R: Renomeia o arquivo a.txt para b.txt**<br>
+	<br>**R: Renomeia o arquivo a.txt para b.txt**<br>
   
     i. git reset --hard 
   	**R: Descarta as alterações na área de stage e reverte as alterações no diretório para o estado do commit especificado**<br>
@@ -37,7 +38,7 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 	**R: Mostra a linha do tempo dos últimos 27 commits realizados** 
   
 3. O fluxo “clássico” de interação com o Git é algo como “alterar um ou mais arquivos”, “acrescentar essas mudanças para serem contemplados no próximo commit” e, finalmente, executar um “commit”. Quais os comandos necessários para realizar os dois últimos “passos” desse fluxo?
-<br>**R:<code>git add</code> para acrescentar todos os arquivos modificados, e <code>git commit -m "mensagem"</code> para realizar o commit das alterações.**<br>
+<br>**R: <code>git add</code> para acrescentar todos os arquivos modificados, e <code>git commit -m "mensagem"</code> para realizar o commit das alterações.**<br>
 
 4. Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”?
 <br>**R: O comando <code>git show</code>**<br>
@@ -55,32 +56,43 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 <br>**R: É necessário configurar o arquivo denominado de <code>.gitignore</code> e nele deve ser adicionados os diretórios e arquivos que precisam ser ignorados.**<br>
 
 9. O que acontece se o seu repositório local for acidentalmente removido?
-<br>**R: Caso queira, pode-se clonar esse repositório, e asalterações que foram subidas anteriormente, serão perdidas.**<br>
+<br>**R: Caso queira, pode-se clonar esse repositório, e as alterações que foram subidas anteriormente, serão perdidas.**<br>
 
 10. Como clonar um repositório remoto?
-<br>**R: utilizar o comando "git clone" seguido da URL do repositório.**<br>
+<br>**R: Utilizar o comando <code>git clone</code> seguido da URL do repositório.**<br>
 
 11. Em alguns cenários **git log** pode produzir extensos resultados. Se houver interesse em visualizar o histórico de um repositório, onde cada mudança é fornecida exatamente em uma única linha, qual o comando que deve ser empregado?
-12. Em qual arquivo o Git armazena informações de configuração empregadas por usuário?
-13. Qual o comando para criar um repositório local?
+<br>**R: O comando <code>git loh --oneline</code>**<br>
 
-	**Resposta: git init**
+12. Em qual arquivo o Git armazena informações de configuração empregadas por usuário?
+<br>**R: No arquivo <code>config</code> localizado na pasta <code>.git</code>**<br>
+
+13. Qual o comando para criar um repositório local?
+<br>**R: O comando <code>git init</code>**<br>
 
 14. Qual o nome do diretório criado pelo Git quando se executa o comando **git init**?
-15. Qual o comando para adicionar todos os arquivos modificados? (Aqueles para os quais **git status** identificam como **modified**?)
+<br>**R: O diretório está localizado na pasta raiz onde o comando foi executado e recebe o nome de <code>.git</code>**<br>
 
-	**Resposta: git add -u**
+15. Qual o comando para adicionar todos os arquivos modificados? (Aqueles para os quais **git status** identificam como **modified**?)
+<br>**R: O comando <code>git add .</code>**<br>
 
 16. O Git faz uso do valor de hash conhecido por SHA1. O que isto significa? Qual o propósito? O que é SHA1?
+
+
 17. Qual a palavra para indicar o último _commit_ em vez do valor de hash SHA1 correspondente?
+<br>**R: Pode-se utilizar o comando <code>git log -1</code>.**<br>
+
 18. Quando se cria dois arquivos usando um editor de texto qualquer e, na sequência, executamos o comando **git add -u**, os dois arquivos criados passam de _untracked_ para _new file_?
+<br>**R: Não, uma vez que o comando <code>git add -u</code> adiciona apenas os arquivos modificados ou removidos.**<br>
+
 19. Qual o efeito da execução dos dois comandos abaixo, nesta ordem, em um dado repositório?
 **git reset --soft HEAD~1**
 **git reset --hard**
+
+
 20. Após o emprego de um ambiente integrado de desenvolvimento (IDE), é comum a criação de arquivos e diretórios. Qual o comando que podemos empregar para remover arquivos e diretórios _untracked_?
 21. Qual o nome do arquivo no qual podemos inserir a indicação para o Git de arquivos e diretórios a serem ignorados? 
-
-	**Resposta: .gitignore**
+<br>**R: O arquivo <code>.gitignore</code>**<br>
 
 22. Quando se cria o arquivo _MinhaClasse.class_ em um dado diretório e desejamos que arquivos com a extensão .class, como neste caso, sejam ignorados por todos os membros de uma equipe que estão contribuindo com um dado projeto, como devemos proceder?
 23. jQuery é uma famosa biblioteca em JavaScript. Consulte detalhes em [jQuery](http://jquery.com). O repositório correspondente encontra-se em [gitRep](https://github.com/jquery/jquery.git). Faça o clone deste repositório.
