@@ -3,37 +3,36 @@
 Responda as questões abaixo (exercite os comandos do git correspondentes). Lembre-se de que o “interessante” não é exatamente o conjunto de respostas, mas o processo de obtê-las e a experiência obtida com a execução dos comandos.
 
 
-1. Qual o comando para obter a versão instalada do Git?
-R: **git --version**
+1. Qual o comando para obter a versão instalada do Git?<br>
+R: **git --version**<br>
+2. Qual o efeito da execução de cada um dos comandos abaixo?<br>
+    a. git help 
+	**R: É aberto um lista de informações de ajuda sobre o git**<br>
+    b. git help checkout 
+	**R: É aberto uma página de manual de checkout**<br>
 
-2. Qual o efeito da execução de cada um dos comandos abaixo?
+    c. git help merge 
+	**R: É aberto uma página de manual de merge**<br>
+  
+    d. git init 
+  	**Ele transforma o diretório em repositório git**<br>
 
-    a. git help: 
-	**É aberto um lista de comandos e suas funcionalidades**
+    e. git add --all 
+	**R: Adiciona todos os arquivos do repositório (novos, modificados e removidos) para que possam ser comitados**<br>
   
-    b. git help checkout: 
-	**É aberto uma página manual de checkout**
-
-    c. git help merge: 
-	**É aberto uma página manual de merge**
+    f. git add -u 
+	**R: Adiciona todos arquivos modificados ou removidos ao stage para que possam ser comitados**<br>
   
-    d. git init:
-  	**Ele transforma o diretório em repositório git**
-
-    e. git add --all:
-	**Rastreia todos os arquivos do repositótio**
+    g. git config -l 
+	**R: Lista todas as configurações presentes no git**
   
-    f. git add -u: 
-	**Adiciona todos arquivos modificados ao stage**
+    h. git mv a.txt b.txt 
+	**R: Renomeia o arquivo a.txt para b.txt**<br>
   
-    g. git config -l
-  
-    h. git mv a.txt b.txt:
-	**Renomeia o arquivo a.txt para b.txt**
-  
-    i. git reset --hard
-  
-    j. git log -27
+    i. git reset --hard 
+  	**R: Descarta as alterações na área de stage e reverte as alterações no diretório para o estado do commit especificado**
+    j. git log -27 
+	**R: Mostra a linha do tempo dos últimos 27 commits realizados** 
   
 3. O fluxo “clássico” de interação com o Git é algo como “alterar um ou mais arquivos”, “acrescentar essas mudanças para serem contemplados no próximo commit” e, finalmente, executar um “commit”. Quais os comandos necessários para realizar os dois últimos “passos” desse fluxo?
 4. Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”?
