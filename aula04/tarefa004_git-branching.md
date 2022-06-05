@@ -29,7 +29,7 @@
 
 	**Criar dois branch distintos:**
 
-	<code>git branch primeiraBranch</code>
+	<code>git branch primeiraBranch</code><br>
 	<code>git branch segundoBranch</code>
 
 	**Ir para o primeiro branch**
@@ -38,12 +38,12 @@
 	**Criar um arquivo qualquer (arquivo1.txt) e coloca algo em seu conteúdo**
 	**Adicionar o arquivo para ser comitado**
 
-	<code>git add .</code>
+	<code>git add .</code><br>
 	<code>git commit -m "Guardar arquivo 1"</code>
 	
 	**Mudar de branch**
 	
-	<code>git checkout segundoBranch<c/ode>
+	<code>git checkout segundoBranch</code>
 
 	**Criar um arquivo qualquer (arquivo2.txt) e coloca algo em seu conteúdo, editando o outro arquivo**
 	**Adicionar os arquivos para serem comitados**
