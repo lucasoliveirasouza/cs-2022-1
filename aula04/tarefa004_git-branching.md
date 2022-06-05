@@ -33,7 +33,7 @@
 	<code>git branch segundoBranch</code><br>
 
 	**Ir para o primeiro branch**<br>
-	<code>git checkout primeiraBranch
+	<code>git checkout primeiraBranch</code><br>
 
 	**Criar um arquivo qualquer (arquivo1.txt) e coloca algo em seu conteúdo**<br>
 	**Adicionar o arquivo para ser comitado**<br>
