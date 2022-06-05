@@ -32,11 +32,11 @@
 	<code>git branch primeiraBranch</code><br>
 	<code>git branch segundoBranch</code><br>
 
-	**Ir para o primeiro branch**<br>
+	**Ir para o primeiro branch:**<br>
 	<code>git checkout primeiraBranch</code><br>
 
 	**Criar um arquivo qualquer (arquivo1.txt) e coloca algo em seu conteúdo**<br>
-	**Adicionar o arquivo para ser comitado**<br>
+	**Adicionar o arquivo para ser comitado:**<br>
 
 	<code>git add .</code><br>
 	<code>git commit -m "Guardar arquivo 1"</code><br>
@@ -46,12 +46,12 @@
 	<code>git checkout segundoBranch</code>
 
 	**Criar um arquivo qualquer (arquivo2.txt) e coloca algo em seu conteúdo, editando o outro arquivo**<br>
-	**Adicionar os arquivos para serem comitados**
+	**Adicionar os arquivos para serem comitados:**
 
 	<code>git add .</code><br>
 	<code>git commit -m "Guardar arquivo 2"</code><br>
 
-	**Voltar para branch principal e mesclar com os outros branch**<br>
+	**Voltar para branch principal e mesclar com os outros branch:**<br>
 	<code>git checkout main</code><br>
 	<code>git merge primeiroBranch</code><br>
 	<code>git merge segundoBranch</code><br>
