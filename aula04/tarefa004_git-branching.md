@@ -26,37 +26,37 @@
 
 9. Durante o desenvolvimento de um software é comum, por exemplo, utilizar um novo recurso por meio de experimentação. Talvez uma nova tecnologia, uma nova biblioteca que pode ser útil ao que está em desenvolvimento, ou até mesmo uma nova versão de um produto já empregado. Para que o uso deste novo recurso não interfira com o que é considerado pronto, um branch pode ser criado para a experimentação. Código que for criado para a experimentação existirá apenas no branch criado. Se eventualmente o experimento demonstrar um resultado satisfatório, as alterações realizadas no branch poderão ser incorporadas no que é considerado pronto, ou seja, no branch principal (master). Esta última ação é conhecida por merge. Neste item, crie uma sequência de comandos que simula um caso simples de criação e uso seguido de merge empregando um branch para ilustrar uma experimentação conforme acima. A sequência deve incluir, obrigatoriamente: (a) criação de um ou mais branches; (b) chaveamento para pelo menos dois branches e (c) merge.
 
-<code>
+
 	**Criar dois branch distintos:**
 
-	git branch primeiraBranch
-	git branch segundoBranch
+	<code>git branch primeiraBranch</code>
+	<code>git branch segundoBranch</code>
 
 	**Ir para o primeiro branch**
-	git checkout primeiraBranch
+	<code>git checkout primeiraBranch</code>
 
 	**Criar um arquivo qualquer (arquivo1.txt) e coloca algo em seu conteúdo**
 	**Adicionar o arquivo para ser comitado**
 
-	git add .
-	git commit -m "Guardar arquivo 1"
+	<code>git add .</code>
+	<code>git commit -m "Guardar arquivo 1"</code>
 	
 	**Mudar de branch**
 	
-	git checkout segundoBranch
+	<code>git checkout segundoBranch<c/ode>
 
 	**Criar um arquivo qualquer (arquivo2.txt) e coloca algo em seu conteúdo, editando o outro arquivo**
 	**Adicionar os arquivos para serem comitados**
 
-	git add .
-	git commit -m "Guardar arquivo 2"
+	<code>git add .</code>
+	<code>git commit -m "Guardar arquivo 2"</code>
 
 	**Voltar para branch principal e mesclar com os outros branch**
-	git checkout main
-	git merge primeiroBranch
-	git merge segundoBranch
+	<code>git checkout main</code>
+	<code>git merge primeiroBranch</code>
+	<code>git merge segundoBranch</code>
 
-</code>	
+
 
 	
 
