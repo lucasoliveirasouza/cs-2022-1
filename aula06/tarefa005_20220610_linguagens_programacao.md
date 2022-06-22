@@ -7,6 +7,8 @@ O Dart é uma linguagem de programação multi-paradima e orientada a objetos. E
 
 Atualmente, o principal framework de desenvolvimento para a linguagem de programação é o Flutter, que ajudou a linguagem a ser conhecida. O Flutter é mult-iplataforma e atualmente é utilizado por grandes empresas, como a Nubank. <br>
 
+
+
 ### Java
 Java é uma linguagem de programação orientada a objetos, muito utilizada no desenvolvimento de aplicações WEB e Mobile. Ela foi criada em 1995 e é uma das linguagens mais usadas do mundo. <br>
 Dentre as principais caracteristicas desta linguagem, destacam-se:
@@ -28,6 +30,8 @@ Empresas que usam Java:
 * Bitpanda;
 * Binance;
 
+
+
 ### JavaScript
 É uma linguagem de programação dinâmica e interpretada, que permite que aos programadores utilize para programação interativa, procedural, ou orientada a objetos. <br>
 
@@ -46,6 +50,7 @@ Ele é compilado para Common Intermediate Language (CIL), portanto, não necessi
 Ele oferece uma abordagem bem estruturada para detectar e recuperar erros. Além disso, com o C# é possível recuperar a memória ocupada por arquivos não utilizados e inacessíveis de forma automática. <br>
 
 Com ele é possível criar aplicativos cliente-servidor, serviços web XML, alipcativos de banco de dados, entre outros. E alguns exemplos de empresas que utilizam essa linguagem são: Microsoft, Dell, Stackoverflow, Intel, Asus e Honda. <br>
+
 
 
 ### Python
