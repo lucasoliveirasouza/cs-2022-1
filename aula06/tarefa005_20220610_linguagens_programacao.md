@@ -8,6 +8,18 @@ O Dart é uma linguagem de programação multi-paradima e orientada a objetos. E
 Atualmente, o principal framework de desenvolvimento para a linguagem de programação é o Flutter, que ajudou a linguagem a ser conhecida. O Flutter é mult-iplataforma e atualmente é utilizado por grandes empresas, como a Nubank. <br>
 
 ### Java
+Java é uma linguagem de programação orientada a objetos, muito utilizada no desenvolvimento de aplicações WEB e Mobile. É uma das linguagens mais usadas do mundo. <br>
+Dentre as principais caracteristicas desta linguagem, destacam-se:
+* **Tipagem estática:** 
+* **Multi-plataforma:**
+* **Orientada a objetos:**
+* **Sintaxe fácil:**
+
+O uso dessa linguagem, tem diversos benefícios, dentre eles:
+*
+
+As principais empresas que usam Java:
+
 Linguagens interpretadas <br>
 Paradigma Orientado a Objetos. <br>
 Linguagens de Propósito Geral <br>
