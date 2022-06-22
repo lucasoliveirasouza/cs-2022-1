@@ -15,12 +15,18 @@ Dentre as principais caracteristicas desta linguagem, destacam-se:
 * **Orientada a objetos:** Pode representar diversos cenários necessários e com isso desenvolver uma estrutura de objetos com comportamentos específicos; <br>
 * **Sintaxe fácil:** apresenta palavras chaves e símbolos que também são usados em outras linguagens, o que torna o aprendizado mais fácil;
 
-As principais empresas que usam Java:
+As principais vantagens do Java:
 * **Portabilidade:** garante vantagem para empresas que não querem se restringir a  um único ambiente, podendo utilizar qualquer hardware e sistema operacional;
 * **Grande comunidade:** isso garante uma grande troca de conhecimentos entre os desenvolvedores dessa linguagem;
 * **Segurança:** a tipagem estática, garante uma grande segurança para o código, garantindo privacidade de dados;
 
-
+Empresas que usam Java:
+* Spotify;
+* Slack;
+* Uber;
+* Lyft;
+* Bitpanda;
+* Binance;
 
 ### JavaScript
 É uma linguagem de programação dinâmica e interpretada, que permite que aos programadores utilize para programação interativa, procedural, ou orientada a objetos. <br>
@@ -51,11 +57,4 @@ Dentre os principais frameworks/bibliotecas de Python, destacam-se: Django, Flas
 
 O Python atualmente é muito utilizado, e alguns exemplos de empresas que utilizam essa linguagem são: Instagram, Spotify, Netflix, Uber, Dropbox; <br>
 
-
-INSTRUÇÕES:
-1. Este é um arquivo no formato _markdown_ (.md), caso você precise de orientações a respeito da forma como editar este tipo de arquivo, acesso este [link](https://guides.github.com/features/mastering-markdown/);
-2. No seu repositório cs-2022-1, crie a pasta aula06;
-3. Adicione este arquivo nesta nova pasta;
-4. Remova esta Seção de INSTRUÇÕES, do arquivo respondido.
-6. Faça o _Commit_ do arquivo atualizado com suas respostas.
-7. Isso deve ser feito até as 23h59min do dia 14/06/2022.
+.
