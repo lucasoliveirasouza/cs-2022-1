@@ -43,7 +43,7 @@ Porém, a linguagem também se popularizou no desenvolvimento Back-end com a fra
 
 ### C#
 
-É uma linguagem que foi criada pela Microsoft e faz uso da plataforma .NET. E para sua criação, foi influenciada por várias outras, como C++ e Java. Ela é orientada a objetos e orientada a componentes, é fortemente tipada e é case-sensitive.  E por ser orientada a componentes, permite o intercâmbio entre linguagens. <br>
+É uma linguagem que foi criada pela Microsoft e faz uso da plataforma .NET. Na sua criação houve influência de várias outras, como C++ e Java. Ela é orientada a objetos e orientada a componentes, é fortemente tipada e é case-sensitive.  E por ser orientada a componentes, permite o intercâmbio entre linguagens. <br>
 
 Ele é compilado para Common Intermediate Language (CIL), portanto, não necessita envolvimento com o sistema operacional para rodar a aplicação. <br>
 
