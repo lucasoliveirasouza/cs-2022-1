@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 
 public class Exercicio05 {
     public static void main(String[] args) {
-        Logger logger = Logger.getLogger(Exercicio01.class.getName());
+        Logger logger = Logger.getLogger(Exercicio05.class.getName());
         Scanner s = new Scanner( System.in );
 
         double salarioMinimo;

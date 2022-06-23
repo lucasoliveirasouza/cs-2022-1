@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 
 public class Exercicio02 {
     public static void main(String[] args) {
-        Logger logger = Logger.getLogger(Exercicio01.class.getName());
+        Logger logger = Logger.getLogger(Exercicio02.class.getName());
 
         double media1 = (8 + 9 + 7)/3.0;
         logger.log(Level.INFO, "A media de 8, 9 e 7: {0}", media1);

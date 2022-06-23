@@ -8,7 +8,7 @@ public class Exercicio04 {
     static Peca peca1 = new Peca();
     static Peca peca2 = new Peca();
     public static void main(String[] args) {
-        Logger logger = Logger.getLogger(Exercicio01.class.getName());
+        Logger logger = Logger.getLogger(Exercicio04.class.getName());
         Scanner s = new Scanner( System.in );
 
         peca1.codigo = 0;

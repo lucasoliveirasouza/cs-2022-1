@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 
 public class Exercicio06 {
     public static void main(String[] args) {
-        Logger logger = Logger.getLogger(Exercicio01.class.getName());
+        Logger logger = Logger.getLogger(Exercicio06.class.getName());
         Scanner s = new Scanner( System.in );
         int numero;
         int antecessor;
