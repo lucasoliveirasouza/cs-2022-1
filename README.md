@@ -4,8 +4,8 @@ Repositório da disciplina de Construção de Software
 #### Assuntos:
 
 * Nivelamento :white_check_mark:
-* Planejamento
-* Gerência de construção
+* Planejamento :white_check_mark:
+* Gerência de construção :white_check_mark:
 * Fundamentos de codificação
 * Projeto (design) detalhado e codificação
 * Refatoração
