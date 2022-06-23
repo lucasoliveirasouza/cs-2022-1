@@ -1,4 +1,4 @@
-# cs-2022-1
+# Construção de Softwrae - 2022-1
 Repositório da disciplina de Construção de Software
 
 #### Assuntos:
