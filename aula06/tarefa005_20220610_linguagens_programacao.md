@@ -12,7 +12,7 @@ Atualmente, o principal framework de desenvolvimento para a linguagem de program
 ### Java
 Java é uma linguagem de programação orientada a objetos, muito utilizada no desenvolvimento de aplicações WEB e Mobile. Ela foi criada em 1995 e é uma das linguagens mais usadas do mundo. <br>
 Dentre as principais caracteristicas desta linguagem, destacam-se:
-* **Tipagem estática:** isso a torna fortemente tipada. Sendo assim, em programa java, quando uma variável for declarada de um tipo, não poderá receber valores de outro tipo que não seja o declarado, garantindo segurança ao código;<br>
+* **Tipagem estática:** isso a torna fortemente tipada. Sendo assim, em um programa java, quando uma variável for declarada de um tipo, não poderá receber valores de outro tipo que não seja o declarado, garantindo segurança ao código;<br>
 * **Multi-plataforma:** Independente da plataforma que estiver usando, se ela possuir a máquina virtual java (JVM), ela pode executar programas em Java, tornando a linguagemm excutável independente do sistema;<br>
 * **Orientada a objetos:** Pode representar diversos cenários necessários e com isso desenvolver uma estrutura de objetos com comportamentos específicos; <br>
 * **Sintaxe fácil:** apresenta palavras chaves e símbolos que também são usados em outras linguagens, o que torna o aprendizado mais fácil;
