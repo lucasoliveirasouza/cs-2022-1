@@ -3,7 +3,7 @@ Repositório da disciplina de Construção de Software
 
 #### Assuntos:
 
-* Nivelamento
+* Nivelamento :white_check_mark:
 * Planejamento
 * Gerência de construção
 * Fundamentos de codificação
