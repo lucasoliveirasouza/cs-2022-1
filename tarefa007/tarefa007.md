@@ -1,13 +1,13 @@
 # Tarefa 007 - 24/06/2022
 
 
-## DevQA: Como medir qualidade de código?
+### DevQA: Como medir qualidade de código?
 
-* ### Ideias principais do texto:
+* #### Ideias principais do texto:
 
-* ### Novidades para mim:
+* #### Novidades para mim:
 
-* ### O que eu já conhecia:
+* #### O que eu já conhecia:
 
 ### Conteúdo do artigo:
 
