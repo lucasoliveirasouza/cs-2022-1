@@ -2,8 +2,6 @@
 
 <br>
 <br>
-<br>
-<br>
 
 ### DevQA: Como medir qualidade de código?
 
