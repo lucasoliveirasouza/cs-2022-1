@@ -1,7 +1,10 @@
 # Tarefa 007 - 24/06/2022
 
-
-### DevQA: Como medir qualidade de código?
+<br>
+<br>
+<br>
+<br>
+## DevQA: Como medir qualidade de código?
 
 * #### Ideias principais do texto:
 O artigo aborda como é feito a mediçao de qualidade de código. Ao longo dele,é mostrado que a **verificação estática** tem por objetivo reduzir a quantidade de erros de um programa. Ela pode ser verificada por meio da Verificação de regras de estilo e Verificação de erro.<br>
@@ -13,9 +16,11 @@ E para calcular essas métricas, existem algumas ferramentas, como o SonarQube e
 
 
 * #### O que é novidade para mim:
-Eu não sabia que as ferramentas de calcular as métricas de qualidade eram simples de usar. Nunca tinha usado e experimentei o Sonar, que se mostrou eficiente e além de disponibilizar as violações, ainda disponibilizou uma solução e link de artigos que abordam tal violação.
+Eu não sabia que as ferramentas de calcular as métricas de qualidade eram simples de usar. Nunca tinha usado e experimentei o Sonar, que se mostrou eficiente e além de disponibilizar as violações, ainda disponibilizou uma solução e link de artigos que abordam tal violação.<br>
 Outro ponto que é novidade para mim é essa divisão da verificação estática, onde uma analisa os estilos da programação e outra analisa os erros propriamente ditos.<br>
+
 * #### O que eu já conhecia:
+O principal ponto que o artigo traz, que eu já conheço, é a questão de que é medido os desvios de uma função (métrica da **complexidade ciclomática**). Já tinha visto isso em diversas ocasiões, onde me disseram para sempre ficar atento a esse ponto, sempre analisando os desvios de função.
 
 ### Conteúdo do artigo:
 
