@@ -22,7 +22,7 @@ Outro ponto que é novidade para mim é essa divisão da verificação estática
 O principal ponto que o artigo traz, que eu já conheço, é a questão de que é medido os desvios de uma função (métrica da **complexidade ciclomática**). Já tinha visto isso em diversas ocasiões, onde me disseram para sempre ficar atento a esse ponto, sempre analisando os desvios de função.
 
 ### Conteúdo do artigo:
-O artigo se mostra muito necessário, pois ele explica os principais pontos analisados para medir a qualidade de código. Ele mostra que nem toda linguagem trabalha da mesma forma, portanto um trecho com muitas linhas em uma determinada linguagem não é mais complexo em relação a outra que use menos e que cada caso deve ser analisados. Para fazer essas análises, existem ferramentas simples de serem utilizadas, que são baseadas em diversos critérios para verificar a qualidde de código.
+O artigo se mostra muito necessário, pois ele explica os principais pontos analisados para medir a qualidade de código. Ele mostra que nem toda linguagem trabalha da mesma forma. Portanto, um trecho com muitas linhas em uma determinada linguagem não é mais complexo em relação a outra que use menos, logo, cada caso deve ser analisados. Para fazer essas análises, existem ferramentas simples de serem utilizadas, que são baseadas em diversos critérios para verificar a qualidde de código.
 
 
 
