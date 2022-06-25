@@ -4,8 +4,12 @@
 ### DevQA: Como medir qualidade de código?
 
 * #### Ideias principais do texto:
-
-* #### Novidades para mim:
+O artigo aborda como é feito a mediçaode qualidade de código. Ao longo dele,é mostrado que a **verificação estática**tem por objetivo reduzir a quantidade de erros de um programa. Ela pode ser verificada por meio da Verificação de regras de estilo e Verificação de erro.
+Ele mostra que algumas métricas utilizadas para medir a qualidade do código são: 
+* Número de linhas de código - essa métrica deve ser bem analisada, pois algumas linguagens usam quantidades de linhas diferentes para fazer a mesma funcionalidade;
+* Complexidade Ciclomática - a médição dessa métrica deve ser mais o baixo possível;
+* Falta de coesão em métodos;
+E para calcular essas métricas, existem algumas ferramentas, como o SonarQube e o brasileiro Code Sheriff;
 
 * #### O que eu já conhecia:
 
