@@ -15,12 +15,10 @@ Ele mostra que algumas métricas utilizadas para medir a qualidade do código s�
 * Falta de coesão em métodos;
 
 <br>E para calcular essas métricas, existem algumas ferramentas, como o SonarQube e o brasileiro Code Sheriff; <br>
-<br>
 
 * #### O que é novidade para mim:
 Eu não sabia que as ferramentas de calcular as métricas de qualidade eram simples de usar. Nunca tinha usado e experimentei o Sonar, que se mostrou eficiente e além de disponibilizar as violações, ainda disponibilizou uma solução e link de artigos que abordam tal violação.<br>
 Outro ponto que é novidade para mim é essa divisão da verificação estática, onde uma analisa os estilos da programação e outra analisa os erros propriamente ditos.<br>
-<br>
 
 * #### O que eu já conhecia:
 O principal ponto que o artigo traz, que eu já conheço, é a questão de que é medido os desvios de uma função (métrica da **complexidade ciclomática**). Já tinha visto isso em diversas ocasiões, onde me disseram para sempre ficar atento a esse ponto, sempre analisando os desvios de função.
