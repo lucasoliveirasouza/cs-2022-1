@@ -13,7 +13,6 @@ Ele mostra que algumas métricas utilizadas para medir a qualidade do código s�
 * Número de linhas de código - essa métrica deve ser bem analisada, pois algumas linguagens usam quantidades de linhas diferentes para fazer a mesma funcionalidade;
 * Complexidade Ciclomática - a médição dessa métrica deve ser mais o baixo possível;
 * Falta de coesão em métodos;
-
 <br>E para calcular essas métricas, existem algumas ferramentas, como o SonarQube e o brasileiro Code Sheriff; <br>
 
 * #### O que é novidade para mim:
