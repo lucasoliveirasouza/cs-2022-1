@@ -1,7 +1,7 @@
 # Tarefa 011 - Padrões de Codificação (Leiaute e estilo), Reflexão e Programação defensiva - 08/07/2022
 
 
-#### Padrões de Codificação
+### Padrões de Codificação
 Padrões de codificações significa definir regras básicas para que uma equipe escreva código da mesma maneira. Isso garante facilidade no processo de desenvolvimento, facilita a retirada de bugs e a manutenção de código. O uso de padrões de codificação deve ser utilizado porque aumenta a produtividade em projetos, uma vez que melhora o entendimento do código por todos da equipe. Eles devem ser utilizados em todo o código e isso ocorre de diversas formas, como:
  * Para definir nomes de classes e interfaces;
  * Para definir nomes de métodos;
@@ -13,6 +13,20 @@ Padrões de codificações significa definir regras básicas para que uma equipe
 
 Um exemplo de utilização de padrões de codificação é que para nomear métodos, deve-se iniciar com letra minúscula. Caso seja um nome composto, os outros nomes deve iniciar com letra maiúscula, como exemplo: **calcularSalario( )**;
 <br><br>
+
+
+
+
+### Reflexão
+A reflexão é a capacidade de examinar, modificar a estrutura e comportamento dede métodos, classes e interfaces em tempo de execução. Com ela, é possível obter informações sobre a classe que um determinado objeto pertence, além de métodos dessa classe que podem ser executados utilizando tal objeto. Ela pode ser utilizada quando necessita obter informações sobre classes, construtores e métodos, para obter os atributos públicos de um objeto. Também pode ser utilizada para criar bibliotecas genéricas para lidar com diferentes formatos sem reimplantação. 
+Um exemplo de uso é o seguinte. Que é usado para quando se necessita saber o tipo de uma variável:
+<code>
+int num = 12;
+Type tipo = num.GetType();
+Console.WriteLine(tipo);
+</code>
+Nesse caso, a saída seria <code>System.Int32</code>
+
 
 
 1. Fazer uma pesquisa sobre os três temas componentes do temas: **Padrões de Codificação**, **Reflexão** e **Programação Defensiva**:
