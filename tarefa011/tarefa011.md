@@ -9,7 +9,7 @@ Padrões de codificações significa definir regras básicas para que uma equipe
  * Definir nomes de constantes;
  * Definir forma de uso de comentários;
  * Definir como declarar variáveis;
- * Definir como funciona a indentação; <br><br>
+ * Definir como funciona a indentação; <br>
 
 Um exemplo de utilização de padrões de codificação é que para nomear métodos, deve-se iniciar com letra minúscula. Caso seja um nome composto, os outros nomes deve iniciar com letra maiúscula, como exemplo: **calcularSalario( )**;
 <br><br>
