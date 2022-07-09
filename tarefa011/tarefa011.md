@@ -26,7 +26,7 @@ Um exemplo de uso é o seguinte, que pode ser usado quando necessitar saber o ti
 <code>Console.WriteLine(tipo);</code><br>
 
 Nesse caso, a saída seria <code>System.Int32</code>
-
+<br><br>
 
 ### Programação defensiva
 Programação defensiva pode ser definida como a criação de código com a finalidade de evitar problemas antes que eles ocorram e afetem todo o projeto. Com ela, cria-se um programa capaz de funcionar corretamente mesmo m situações inesperadas. Para isso, ela faz uso detestes extensivos e a criação de projeto que pode ser auditado e verificado facilmente. Ela deve ser utilizada nas diversas partes onde existe interação com o usuário, para evitar que ações feitas por ele, afete a integridade de dados e do sistema. <br>
