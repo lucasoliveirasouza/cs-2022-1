@@ -15,8 +15,6 @@ Um exemplo de utilização de padrões de codificação é que para nomear méto
 <br><br>
 
 
-
-
 ### Reflexão
 A reflexão é a capacidade de examinar, modificar a estrutura e comportamento dede métodos, classes e interfaces em tempo de execução. Com ela, é possível obter informações sobre a classe que um determinado objeto pertence, além de métodos dessa classe que podem ser executados utilizando tal objeto. Ela pode ser utilizada quando necessita obter informações sobre classes, construtores e métodos, para obter os atributos públicos de um objeto. Também pode ser utilizada para criar bibliotecas genéricas para lidar com diferentes formatos sem reimplantação.<br> 
 Um exemplo de uso é o seguinte, que pode ser usado quando necessitar saber o tipo de uma variável:<br>
@@ -29,6 +27,6 @@ Nesse caso, a saída seria <code>System.Int32</code>
 <br><br>
 
 ### Programação defensiva
-Programação defensiva pode ser definida como a criação de código com a finalidade de evitar problemas antes que eles ocorram e afetem todo o projeto. Com ela, cria-se um programa capaz de funcionar corretamente mesmo m situações inesperadas. Para isso, ela faz uso detestes extensivos e a criação de projeto que pode ser auditado e verificado facilmente. Ela deve ser utilizada nas diversas partes onde existe interação com o usuário, para evitar que ações feitas por ele, afete a integridade de dados e do sistema. <br>
+Programação defensiva pode ser definida como a criação de código com a finalidade de evitar problemas antes que eles ocorram e afetem todo o projeto. Com ela, cria-se um programa capaz de funcionar corretamente mesmo m situações inesperadas. Para isso, ela faz uso de testes extensivos e a criação de projeto que pode ser auditado e verificado facilmente. Ela deve ser utilizada nas diversas partes onde existe interação com o usuário, para evitar que ações feitas por ele, afete a integridade de dados e do sistema. <br>
 Um exemplo de programação defensiva é quando existe um método que cadastra dados de um usuário. Dentro desse método, deve existir condições que verifiquem se as informações fornecidas por ele, são válidas, para que inconsistências não sejam salvas no banco de dados, evitando possíveis erros.
 
