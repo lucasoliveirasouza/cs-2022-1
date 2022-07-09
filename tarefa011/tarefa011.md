@@ -18,12 +18,12 @@ Um exemplo de utilização de padrões de codificação é que para nomear méto
 
 
 ### Reflexão
-A reflexão é a capacidade de examinar, modificar a estrutura e comportamento dede métodos, classes e interfaces em tempo de execução. Com ela, é possível obter informações sobre a classe que um determinado objeto pertence, além de métodos dessa classe que podem ser executados utilizando tal objeto. Ela pode ser utilizada quando necessita obter informações sobre classes, construtores e métodos, para obter os atributos públicos de um objeto. Também pode ser utilizada para criar bibliotecas genéricas para lidar com diferentes formatos sem reimplantação. 
-Um exemplo de uso é o seguinte. Que é usado para quando se necessita saber o tipo de uma variável:
+A reflexão é a capacidade de examinar, modificar a estrutura e comportamento dede métodos, classes e interfaces em tempo de execução. Com ela, é possível obter informações sobre a classe que um determinado objeto pertence, além de métodos dessa classe que podem ser executados utilizando tal objeto. Ela pode ser utilizada quando necessita obter informações sobre classes, construtores e métodos, para obter os atributos públicos de um objeto. Também pode ser utilizada para criar bibliotecas genéricas para lidar com diferentes formatos sem reimplantação.<br> 
+Um exemplo de uso é o seguinte. Que é usado para quando se necessita saber o tipo de uma variável:<br>
 <code>
-int num = 12;
-Type tipo = num.GetType();
-Console.WriteLine(tipo);
+int num = 12;<br>
+Type tipo = num.GetType();<br>
+Console.WriteLine(tipo);<br>
 </code>
 Nesse caso, a saída seria <code>System.Int32</code>
 
