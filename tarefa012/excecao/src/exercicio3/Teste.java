@@ -1,6 +1,5 @@
 package exercicio3;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Teste {
@@ -22,7 +21,7 @@ public class Teste {
 
         }catch (ArrayIndexOutOfBoundsException aibe){
             System.out.println("Você ultrapassou o tamanho do vetor.");
-        } catch (LoginException e) {
+        } catch (LoginInvalidoException e) {
             System.out.println(e.getMessage());
         }
     }
