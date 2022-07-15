@@ -6,7 +6,7 @@ Repositório da disciplina de Construção de Software
 * Nivelamento :white_check_mark:
 * Planejamento :white_check_mark:
 * Gerência de construção :white_check_mark:
-* Fundamentos de codificação
+* Fundamentos de codificação :white_check_mark:
 * Projeto (design) detalhado e codificação
 * Refatoração
 * Testes de unidade
