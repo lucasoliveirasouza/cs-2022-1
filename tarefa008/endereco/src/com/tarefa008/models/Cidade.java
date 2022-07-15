@@ -1,7 +1,16 @@
 package com.tarefa008.models;
 
+/**
+ * Classe de cidade;
+ * Autor: Lucas Oliveira de Souza;
+ * Data: 15/07/2022;
+ */
 public class Cidade {
     private String nome;
+
+    /**
+     * Relacionamento com Estado
+     */
     private Estado estado;
 
 

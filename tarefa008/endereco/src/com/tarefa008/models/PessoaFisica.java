@@ -2,8 +2,13 @@ package com.tarefa008.models;
 
 import java.util.ArrayList;
 import java.util.Date;
-
+/**
+ * Classe de pessoa física
+ * Autor: Lucas Oliveira de Souza
+ * Data: 15/07/2022
+ */
 public class PessoaFisica {
+
 
     private String nome;
     private String sexo;

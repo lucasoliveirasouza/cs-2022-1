@@ -1,7 +1,18 @@
 package com.tarefa008.models;
 
+
+/**
+ * Classe de bairro;
+ * Autor: Lucas Oliveira de Souza;
+ * Data: 15/07/2022;
+ */
 public class Bairro {
+
     private String nome;
+
+    /**
+     * Relacionamento com Cidade
+     */
     private Cidade cidade;
 
     public Bairro(String nome) {

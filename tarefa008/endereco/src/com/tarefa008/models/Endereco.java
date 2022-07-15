@@ -2,11 +2,24 @@ package com.tarefa008.models;
 
 import com.tarefa008.enums.TipoEndereco;
 
+/**
+ * Classe de bairro;
+ * Autor: Lucas Oliveira de Souza;
+ * Data: 15/07/2022;
+ */
 public class Endereco {
     private int numero;
     private String complemento;
     private int cep;
+
+    /**
+     * Relacionamento com bairro
+     */
     private Bairro bairro;
+
+    /**
+     * Relacionamento com logradouro
+     */
     private Logradouro logadouro;
     private TipoEndereco tipoEndereco;
 

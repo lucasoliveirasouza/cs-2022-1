@@ -2,6 +2,11 @@ package com.tarefa008.models;
 
 import com.tarefa008.enums.TipoLogradouro;
 
+/**
+ * Classe de logradouro;
+ * Autor: Lucas Oliveira de Souza;
+ * Data: 15/07/2022;
+ */
 public class Logradouro {
     private String nome;
     private TipoLogradouro tipoLogradouro;
