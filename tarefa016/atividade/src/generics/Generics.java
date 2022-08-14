@@ -8,9 +8,9 @@ import generics.models.Gato;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Teste {
+public class Generics {
 
-    public static void processElements(List<? extends Animal> animais){
+    public void emitirSons(List<? extends Animal> animais){
         for(Animal a : animais){
             System.out.println(a.emitirSom());
         }
@@ -18,17 +18,24 @@ public class Teste {
 
     public static void main(String[] args) {
 
-        List<Cachorro> cachorroArrayList = new ArrayList<>();
+        List<Cachorro> cachorroList = new ArrayList<>();
         List<Cavalo> cavaloList = new ArrayList<>();
         List<Gato> gatoList = new ArrayList<>();
-        
-        orangeList.add(new Orange());
-        appleList.add(new Apple());
-        fujiAppleList.add(new FujiApple());
-        processElements(orangeList);
-        processElements(appleList);
-        processElements(fujiAppleList);
+
+        Generics generico = new Generics();
+
+        cachorroList.add(new Cachorro());
+        cachorroList.add(new Cachorro());
+
+        cavaloList.add(new Cavalo());
+        cavaloList.add(new Cavalo());
+
+        gatoList.add(new Gato());
+        gatoList.add(new Gato());
+
+        generico.emitirSons(cachorroList);
+        generico.emitirSons(cavaloList);
+        generico.emitirSons(gatoList);
     }
 
-}
 }
