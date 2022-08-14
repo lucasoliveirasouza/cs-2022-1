@@ -1,4 +1,4 @@
-package extract_interface.before_refactoring;
+package extract_interface.after_refactoring;
 
 public interface IBarulho {
     public String emitirSom();

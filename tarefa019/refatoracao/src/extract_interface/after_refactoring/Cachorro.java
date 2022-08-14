@@ -1,6 +1,6 @@
 package extract_interface.after_refactoring;
 
-public class Cachorro {
+public class Cachorro implements IBarulho {
     private String name;
 
     public Cachorro(String name) {
@@ -15,7 +15,8 @@ public class Cachorro {
         this.name = name;
     }
 
-    public String emitirSom(){
+    @Override
+    public String emitirSom() {
         return "Oi, eu sou o " + name + " e eu sei latir";
     }
 }

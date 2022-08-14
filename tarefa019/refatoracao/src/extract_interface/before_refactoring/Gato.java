@@ -1,6 +1,6 @@
 package extract_interface.before_refactoring;
 
-public class Gato implements IBarulho{
+public class Gato {
 
     private String name;
 
@@ -16,8 +16,7 @@ public class Gato implements IBarulho{
         this.name = name;
     }
 
-    @Override
-    public String emitirSom() {
+    public String emitirSom(){
         return "Oi, eu sou o " + name + " e eu sei miar";
     }
 }
