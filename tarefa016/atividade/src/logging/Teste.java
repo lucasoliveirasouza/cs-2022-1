@@ -22,7 +22,7 @@ public class Teste {
             divisor = s.nextInt();
             System.out.println("O resultado da divisão: " + obj.dividir(dividendo,divisor));
         }catch(ArithmeticException ex){
-            logger.log(Level.WARNING, "Não é possível realizar uma divisão por 0");
+            logger.log(Level.WARNING, "Não é possível realizar uma divisão por 0!");
         }
     }
 
