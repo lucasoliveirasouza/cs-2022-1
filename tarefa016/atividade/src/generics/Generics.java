@@ -10,11 +10,7 @@ import java.util.List;
 
 public class Generics {
 
-    public void emitirSons(List<? extends Animal> animais){
-        for(Animal a : animais){
-            System.out.println(a.emitirSom());
-        }
-    }
+
 
     public static void main(String[] args) {
 
@@ -36,6 +32,12 @@ public class Generics {
         generico.emitirSons(cachorroList);
         generico.emitirSons(cavaloList);
         generico.emitirSons(gatoList);
+    }
+
+    public void emitirSons(List<? extends Animal> animais){
+        for(Animal a : animais){
+            System.out.println(a.emitirSom());
+        }
     }
 
 }
